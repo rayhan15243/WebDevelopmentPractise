@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+        <title>Forms Lesson</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+		<style type="text/css">
+		
+		</style>
+   </head>
+<body>
+<form>
+	Username: <input type="text" name="username" size="15" maxlength="5" value="Enter Name Here" /> <br />
+	Password: <input type="password" name="password" size="15" maxlength="12" /> <br /> <br/>
+	<!--"size" attribute changes the length of your input box.-->
+	<!--"maxlength" attribute limits the amount of characters the user can enter in the input box.-->
+	<!--"value" attribute allows you to input a default value, so 
+	    every time the user sees this form they will see a default value already entered.-->
+	
+	Male: <input type="radio" name="sex" value="male" />
+	Female: <input type="radio" name="sex" value="female"/> <br />
+	<!--These are called radio buttons. The user is only allowed 
+	to select one option.-->
+	
+	<p>Select the foods that you would like to order?</p>
+	Tuna <input type="checkbox" name="food" value="tuna"/>
+	Cheese <input type="checkbox" name="food" value="cheese"/>
+	Cake <input type="checkbox" name="food" value="cake"/>
+	Kebabs <input type="checkbox" name="food" value="kebabs"/> <br /> <br />
+	<!--These are called checkboxes where the user can select 
+		more than one option.-->
+		
+	<select name="activities">
+		<option value="play">Play the guitar</option>
+		<option value="football">Play football</option>
+		<option value="tv">Watch TV</option>
+		<option value="clean">Clean your room</option>
+	</select> <br />  <br />
+	<!--The "select" tag allows you to create a drop down list.
+		You can add individual options by using the "option" tag.--> 
+	
+	Tell me about yourself:
+	<br />
+	<textarea name="bio" rows="8" cols="40">Type something here</textarea> <br /> 
+	<!--"rows" attribute changes the height of the textarea.-->
+	<!--"cols" attribute changes the width of the textarea.-->
+	
+	<p>Submit a file</p>
+	<input type="file" name="rayhansfile" />
+	<!--You can use "file" in the type attribute to create an upload button.-->
+	
+	<input type="submit" value="Submit"/>
+	<!--You can use "submit" in the type attribute to create a submit button.-->
+	
+</form>
+</body>
+</html>

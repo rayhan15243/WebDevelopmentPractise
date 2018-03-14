@@ -1,0 +1,26 @@
+/*[name]{color:red;}*/
+/*This is called an attribute selector. Basically a new way
+of referencing elements*/
+
+/*Pseudo Classes*/
+
+/*p:nth-child(odd){color:green;}*/ 
+/*You can use nth-child to add a number or keywords CSS3 understands  using () to apply a style. The  
+number and keyword represents an element where there is one set of elements that are the same*/
+
+/*Negation pseudo classes*/
+
+/* * {color:blue;} */
+/* :not(.top){color:red;} */
+/* This means whatever element is not referenced as "top" should be styled red*/
+
+/*New CSS3 Selectors*/
+
+/*Greater than sign*/
+/*allows you to style an element that is inside another element. Basically in this example below,
+elements with p tags within the div tag gets styled. Nothing else gets styled in the div tag because
+it is not a p tag*/
+/*div > p{color:orange;}*/
+/*Plus sign*/
+/*p.top + p{color:blue;}*/
+							
